@@ -1,0 +1,133 @@
+/*CSS for my demonstration project*/
+body{
+   background-image: url("../img/sunflowers.jpg");
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 1000px;
+   margin: 0;
+   background-color: #2b2b2b;
+}
+header{
+   position: absolute;
+   left: 50%;
+   top:0;
+   text-align: center;
+   background-color: #1e1e1e;
+}
+h1 {
+   
+   margin:0;
+   color: #493595 ;
+   
+   text-align: center;
+}
+nav{
+   position: fixed;
+   background-color: #1e1e1e;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 150px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   text-align: center;
+}
+nav ul {
+   position: relative;
+   top: -50px;
+   list-style: none; 
+   padding-top: 8px; 
+   text-align: center;
+}
+nav li {
+   display: inline;
+}
+nav a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-right: 20px;
+}
+nav a:hover{
+   color: black;
+}
+section {
+   
+   width: 100%;
+   margin-right: 5%;
+   margin-bottom: 20px;
+}
+
+footer {
+   bottom:0%;
+   left: 0;
+   width: 100%;
+   position: fixed;
+   clear: both;
+   background-color: #0011a9;
+   color: rgba(255, 255, 255, 1);
+   height: 50px;
+   text-align: center;
+}
+footer a {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+}
+
+table {
+  width: 100%;
+}
+.image_right{
+   float:right;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.image_left{
+   float:left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.homeButton{
+   position: absolute;
+   top: 50px;
+   right:50px;
+   height:50px;
+   width:50px;
+}
+
+.logoicon{
+   position: relative;
+   top: -75px;
+   left: 75px;
+   width: 50px; 
+   height: 50px;
+}
+
+.logoicon a{
+   width: 50px; 
+   height: 50px;
+}
+
+.logoicon img{
+   width: 150px;
+   height: 150px;
+}
+main{
+   top: 150px;
+   left:20%;
+   
+   right: 20%;
+   position: fixed;
+   text-align: center;
+}
+
+.imagerb{
+   border-radius: 30px;
+   border-width: 5px;
+   border-style: groove;
+   border-color: #3300ff;
+   
+}
